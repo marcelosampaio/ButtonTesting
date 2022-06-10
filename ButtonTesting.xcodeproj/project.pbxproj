@@ -11,6 +11,8 @@
 		2DCDC911285365060039F534 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDC910285365060039F534 /* ContentView.swift */; };
 		2DCDC913285365080039F534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCDC912285365080039F534 /* Assets.xcassets */; };
 		2DCDC916285365080039F534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCDC915285365080039F534 /* Preview Assets.xcassets */; };
+		2DCDC91D285365600039F534 /* MButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDC91C2853655F0039F534 /* MButtonStyle.swift */; };
+		2DCDC91F285369E20039F534 /* MToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCDC91E285369E20039F534 /* MToggleStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2DCDC910285365060039F534 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DCDC912285365080039F534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DCDC915285365080039F534 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DCDC91C2853655F0039F534 /* MButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MButtonStyle.swift; sourceTree = "<group>"; };
+		2DCDC91E285369E20039F534 /* MToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MToggleStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				2DCDC90E285365060039F534 /* ButtonTestingApp.swift */,
 				2DCDC910285365060039F534 /* ContentView.swift */,
+				2DCDC91E285369E20039F534 /* MToggleStyle.swift */,
+				2DCDC91C2853655F0039F534 /* MButtonStyle.swift */,
 				2DCDC912285365080039F534 /* Assets.xcassets */,
 				2DCDC914285365080039F534 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCDC911285365060039F534 /* ContentView.swift in Sources */,
+				2DCDC91F285369E20039F534 /* MToggleStyle.swift in Sources */,
 				2DCDC90F285365060039F534 /* ButtonTestingApp.swift in Sources */,
+				2DCDC91D285365600039F534 /* MButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
